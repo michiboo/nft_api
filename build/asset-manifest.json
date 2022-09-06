@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/nft_api/static/css/main.073c9b0a.css",
+    "main.js": "/nft_api/static/js/main.a1af8a1c.js",
+    "static/js/787.5bea993f.chunk.js": "/nft_api/static/js/787.5bea993f.chunk.js",
+    "static/media/logo.svg": "/nft_api/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/nft_api/index.html",
+    "main.073c9b0a.css.map": "/nft_api/static/css/main.073c9b0a.css.map",
+    "main.a1af8a1c.js.map": "/nft_api/static/js/main.a1af8a1c.js.map",
+    "787.5bea993f.chunk.js.map": "/nft_api/static/js/787.5bea993f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.a1af8a1c.js"
+  ]
+}
