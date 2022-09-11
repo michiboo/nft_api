@@ -1,10 +1,19 @@
-import logo from './logo.svg';
+
+
 import './App.css';
-import {CreateNFT} from './components/create'
+import {Main} from './components/main';
+import { Web3ReactProvider } from '@web3-react/core'
+import Web3 from 'web3'
+
 function App() {
+  function getLibrary(provider) {
+    return new Web3(provider)
+  }
   return (
     <div className="App">
-      <CreateNFT/>
+      <Web3ReactProvider getLibrary={getLibrary}>
+        <Main/>
+        </Web3ReactProvider>
     </div>
   );
 }
